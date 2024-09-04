@@ -37,3 +37,59 @@
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* banner */
+.banner-container {
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px dashed gainsboro;
+  border-bottom: 1px dashed gainsboro;
+  margin-bottom: 100px;
+}
+
+.banner-container .content-container {
+  width: 69%;
+  max-width: 998px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.banner-container .content-container * {
+  margin-bottom: 24px;
+}
+
+.banner-container .content-container .content img {
+  width: 100%;
+  max-width: 173px;
+}
+
+.banner-container .content-container .content h1 {
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  font-size: 33px;
+}
+
+.banner-container .content-container .content p {
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.banner-container .content-container .content button {
+  background-color: #0d1321;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: none;
+}
