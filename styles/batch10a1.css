@@ -9,6 +9,24 @@
   font-family: "Kanit", sans-serif;
 }
 
+/* peseudo elements */
+*::selection{
+  background-color: yellow;
+  color: black;
+}
+
+p::first-letter{
+  font-size: 2em;
+  color: rgb(255, 21, 0);
+}
+
+/* peseudo class */
+
+.btn:hover{
+  background-color: rgb(87, 87, 230);
+  color: #fff;
+}
+
 /* shared style */
 
 .development-section-container .development-1,
@@ -277,3 +295,4 @@
   border-radius: 8px;
   border: none;
 }
+
